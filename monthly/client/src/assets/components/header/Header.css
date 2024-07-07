@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #002543;
+}
+.title {
+  text-transform: capitalize;
+  align-items: center;
+  color: white;
+  padding: 1rem, 1rem;
+  margin: 1rem;
+}
+.navigation {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navcontain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+.navigationitems a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  padding: 0.5rem;
+  margin: 1rem;
+  transition: all 0.5s;
+}
+.navigationitems a:hover {
+  background-color: #dde7ef;
+  border-radius: 10%;
+  color: #002543;
+}

@@ -1,0 +1,135 @@
+.form {
+  background-color: #dde7ef;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  height: 50px;
+  color: white;
+  width: 400px;
+  border: none;
+  border-radius: 25px;
+  gap: 1rem;
+  text-decoration: solid black;
+}
+.button {
+  height: 3rem;
+  background-color: #002543;
+  width: 6rem;
+  border-radius: 10%;
+  margin: 0, 1rem;
+  color: white;
+}
+.fieldsearch {
+  margin-bottom: 1rem;
+}
+.fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.field{
+  background-color: #dde7ef;
+  width: 180px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchbyfield {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1rem;
+}
+.fielditem {
+  background-color: #dde7ef;
+  height: 250px;
+  width: 200px;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.medicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.explain {
+  vertical-align: bottom;
+}
+.recentdiv {
+  background-color: #f5eee2;
+  margin-bottom: 1rem;
+}
+.recpost {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2rem;
+}
+.recent {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-bottom: 1.5rem; */
+  gap: 1rem;
+  margin-left:auto;
+  margin-right:auto;
+}
+.recentjob {
+  display:flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #dde7ef;
+  border-radius:10px;
+  width: 280px;
+  height: 250px;
+  padding:1rem,0.3rem
+
+}
+.description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+width: 245px;
+
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dde7ef;
+  height: 50vh;
+}
+.sub {
+  padding-bottom: 3rem;
+}
+.inputsub {
+  color: white;
+  margin: 1rem, auto;
+  height: 3rem;
+  border-radius: 25px;
+  width: 500px;
+}
+.applybtn{
+  height: 2rem;
+  width: 4rem;
+  border-radius: 5px;
+}

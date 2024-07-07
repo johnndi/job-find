@@ -1,0 +1,60 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem, auto;
+  padding: 1rem;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.regform {
+  background-color: #f5eee2;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+/* .loform {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  
+  } */
+
+.regform label {
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.regforminput {
+  padding: 1rem;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.regforminput:focus {
+  border: none;
+  outline: none;
+}
+
+.submit-btn {
+  display: block;
+  width: 40%;
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #002345;
+  color: white;
+  margin: 0.5rem, 0;
+}
